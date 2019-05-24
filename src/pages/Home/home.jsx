@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import CommonHeader from '../../components/CommonHeader/commonheader'
-import CommonFooter from '../../components/CommonFooter/commonfooter'
 import HomeNav from './components/HomeNav/homenav'
 import HomeSwiper from './components/HomeSwiper/homeswiper'
 import HomeGoods from './components/HomeGoods/homegoods'
@@ -36,7 +35,6 @@ export default class Admin extends Component {
             <NewShop/>
           </div>
         </div>
-        <CommonFooter/>
       </div>
     )
   }

@@ -59,10 +59,10 @@ export default class NewShop extends Component{
               <div>
                 <img
                   src="https://yanxuan.nosdn.127.net/b097972db0ed9d5b47fbed0e2dbd1d99.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                  className="pic" data-reactid=".0.4.8.$0.0.2.0"/>
+                  className="pic" data-reactid=".0.4.8.$0.0.2.0" alt='pic'/>
                   <img
                     src="https://yanxuan.nosdn.127.net/b093cd15ca7de193d46f0ac44dde71da.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                    className="pic" data-reactid=".0.4.8.$0.0.2.1"/>
+                    className="pic" data-reactid=".0.4.8.$0.0.2.1" alt='pic'/>
               </div>
             </div>
             <div>
@@ -71,10 +71,10 @@ export default class NewShop extends Component{
               <div>
                 <img
                   src="https://yanxuan.nosdn.127.net/1eecf74b769af3ed4c7817aeb5d6bb2b.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                  className="pic" data-reactid=".0.4.8.$1.0.2.0"/>
+                  className="pic" data-reactid=".0.4.8.$1.0.2.0" alt='pic'/>
                   <img
                     src="https://yanxuan.nosdn.127.net/be4d030d4b4a8a4bf096714ec5b2a4aa.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                    className="pic" data-reactid=".0.4.8.$1.0.2.1"/>
+                    className="pic" data-reactid=".0.4.8.$1.0.2.1" alt='pic'/>
               </div>
             </div>
             <div>
@@ -83,10 +83,10 @@ export default class NewShop extends Component{
               <div>
                 <img
                   src="https://yanxuan.nosdn.127.net/d335c626a3ca7459739f668e1ef9478b.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                  className="pic" data-reactid=".0.4.8.$2.0.2.0"/>
+                  className="pic" data-reactid=".0.4.8.$2.0.2.0" alt='pic'/>
                   <img
                     src="https://yanxuan.nosdn.127.net/6463c70f8b50bd14fd49d1f5903c06ec.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                    className="pic" data-reactid=".0.4.8.$2.0.2.1"/>
+                    className="pic" data-reactid=".0.4.8.$2.0.2.1" alt='pic'/>
               </div>
             </div>
             <div>
@@ -95,10 +95,10 @@ export default class NewShop extends Component{
               <div>
                 <img
                   src="https://yanxuan.nosdn.127.net/bbdbfc9d084e0188af383ff9255a4cc1.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                  className="pic" data-reactid=".0.4.8.$3.0.2.0"/>
+                  className="pic" data-reactid=".0.4.8.$3.0.2.0" alt='pic'/>
                   <img
                     src="https://yanxuan.nosdn.127.net/b2a64915d5a9ae04964de87901f284eb.png?imageView&amp;thumbnail=150x150&amp;quality=75"
-                    className="pic" data-reactid=".0.4.8.$3.0.2.1"/>
+                    className="pic" data-reactid=".0.4.8.$3.0.2.1" alt='pic'/>
               </div>
             </div>
 

@@ -5,18 +5,20 @@ import Category from './pages/Category/category'
 import KnowThings from './pages/KnowThings/knowthings'
 import Personal from './pages/Personal/personal'
 import GoShop from './pages/GoShop/goshop'
-
+import CommonFooter from './components/CommonFooter/commonfooter'
 export default class App extends Component{
   render() {
     return (
       <BrowserRouter>
-
-          <Route path='/' component={Home}/>
-          <Route path="/category" component={Category} />
-          <Route path="/knowthings" component={KnowThings} />
-          <Route path="/personal" component={Personal} />
-          <Route path="/goshop" component={GoShop} />
-
+          <Switch>
+            <Route path="/category" component={Category} />
+            <Route path="/home" component={Home} />
+            <Route path="/knowthings" component={KnowThings} />
+            <Route path="/personal" component={Personal} />
+            <Route path="/goshop" component={GoShop} />
+            <Redirect to='/home'/>
+          </Switch>
+            <CommonFooter/>
       </BrowserRouter>
 
     )

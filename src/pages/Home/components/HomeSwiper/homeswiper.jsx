@@ -26,19 +26,19 @@ export default class homeswiper extends Component{
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <img
-                src="https://yanxuan.nosdn.127.net/2bbc93483e59a3f83279ef04be0ae4bf.jpg?imageView&amp;quality=75&amp;thumbnail=750x0"/>
+                src="https://yanxuan.nosdn.127.net/2bbc93483e59a3f83279ef04be0ae4bf.jpg?imageView&amp;quality=75&amp;thumbnail=750x0" alt='pic' />
             </div>
             <div className="swiper-slide">
               <img
-                src="https://yanxuan.nosdn.127.net/be19ff539948b1a9a07b4003b742bde1.jpg?imageView&amp;quality=75&amp;thumbnail=750x0"/>
+                src="https://yanxuan.nosdn.127.net/be19ff539948b1a9a07b4003b742bde1.jpg?imageView&amp;quality=75&amp;thumbnail=750x0" alt='pic'/>
             </div>
             <div className="swiper-slide">
               <img
-                src="https://yanxuan.nosdn.127.net/383af1b21d93999da433afd7507cd380.jpg?imageView&amp;quality=75&amp;thumbnail=750x0"/>
+                src="https://yanxuan.nosdn.127.net/383af1b21d93999da433afd7507cd380.jpg?imageView&amp;quality=75&amp;thumbnail=750x0" alt='pic'/>
             </div>
             <div className="swiper-slide">
               <img
-                src="https://yanxuan.nosdn.127.net/c1a535de9ea67a5d34d5c08fbc79de60.jpg?imageView&amp;quality=75&amp;thumbnail=750x0"/>
+                src="https://yanxuan.nosdn.127.net/c1a535de9ea67a5d34d5c08fbc79de60.jpg?imageView&amp;quality=75&amp;thumbnail=750x0" alt='pic'/>
             </div>
           </div>
           <div className="swiper-pagination"></div>

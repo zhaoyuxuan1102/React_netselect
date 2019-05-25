@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './perheader.styl'
-
+import {Link} from 'react-router-dom'
 export default class perheader extends Component {
 
   render() {
@@ -8,7 +8,9 @@ export default class perheader extends Component {
       <div>
         <div>
           <div id="navContent">
-            <i className="iconfont icon-home1 gohome"></i>
+            <Link to='/home'>
+            <i className="iconfont icon-home1 gohome"/>
+            </Link>
           <i className="wylogo"></i>
           <div>
             <i className="iconfont icon-iconfontzhizuobiaozhun22 goselect"></i>

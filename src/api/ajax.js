@@ -1,7 +1,6 @@
 import axios from 'axios'
 
-
-export default function ajax(url, data = {}, method = 'GET') {
+export default function ajax (url, data = {}, method = 'GET') {
   return new Promise((resolve, reject) => {
     let promise
     if (method === 'GET') {
@@ -18,7 +17,5 @@ export default function ajax(url, data = {}, method = 'GET') {
     }).catch(error => {
       alert('请求失败' + error.message)
     })
-
-
   })
 }

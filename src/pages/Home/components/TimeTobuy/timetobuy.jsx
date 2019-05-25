@@ -1,8 +1,16 @@
 import React, {Component} from 'react'
 import './timetobuy.styl'
+import PropTypes from 'prop-types'
+
 
 export default class timetobuy extends Component{
+  static PropType={
+    itemList:PropTypes.array.isRequired
+  }
+
+
   render() {
+    const {itemList}=this.props
     return (
       <div>
         <div id="TimeTobuyWrap">
@@ -18,58 +26,20 @@ export default class timetobuy extends Component{
             <p className="headerMore">更多<i className="iconfont icon-you"></i></p>
           </div>
           <ul className="shopList">
-            <li>
-              <img src="http://yanxuan.nosdn.127.net/15a8238082563e743269de33a2b102c6.png?imageView&thumbnail=216x216&quality=75" alt=""/>
-                <div className="priceWrap">
-                  <span className="newprice">¥</span>
-                  <span className="oldprice">¥</span>
-                </div>
-            </li>
-            <li>
-              <img
-                src="http://yanxuan.nosdn.127.net/15a8238082563e743269de33a2b102c6.png?imageView&thumbnail=216x216&quality=75"
-                alt=""/>
-              <div className="priceWrap">
-                <span className="newprice">¥</span>
-                <span className="oldprice">¥</span>
-              </div>
-            </li>
-            <li>
-              <img
-                src="http://yanxuan.nosdn.127.net/15a8238082563e743269de33a2b102c6.png?imageView&thumbnail=216x216&quality=75"
-                alt=""/>
-              <div className="priceWrap">
-                <span className="newprice">¥</span>
-                <span className="oldprice">¥</span>
-              </div>
-            </li>
-            <li>
-              <img
-                src="http://yanxuan.nosdn.127.net/15a8238082563e743269de33a2b102c6.png?imageView&thumbnail=216x216&quality=75"
-                alt=""/>
-              <div className="priceWrap">
-                <span className="newprice">¥</span>
-                <span className="oldprice">¥</span>
-              </div>
-            </li>
-            <li>
-              <img
-                src="http://yanxuan.nosdn.127.net/15a8238082563e743269de33a2b102c6.png?imageView&thumbnail=216x216&quality=75"
-                alt=""/>
-              <div className="priceWrap">
-                <span className="newprice">¥</span>
-                <span className="oldprice">¥</span>
-              </div>
-            </li>
-            <li>
-              <img
-                src="http://yanxuan.nosdn.127.net/15a8238082563e743269de33a2b102c6.png?imageView&thumbnail=216x216&quality=75"
-                alt=""/>
-              <div className="priceWrap">
-                <span className="newprice">¥</span>
-                <span className="oldprice">¥</span>
-              </div>
-            </li>
+            {
+              itemList.map((item,index)=>{
+                return(
+                  <li key={index}>
+                    <img src={item.picUrl} alt=""/>
+                    <div className="priceWrap">
+                      <span className="newprice">{item.activityPrice}¥</span>
+                      <span className="oldprice">{item.originPrice}¥</span>
+                    </div>
+                  </li>
+                )
+              })
+            }
+
           </ul>
         </div>
       </div>

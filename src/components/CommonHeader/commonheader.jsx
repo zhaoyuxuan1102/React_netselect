@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './commonheaders.styl'
-
+import {Link} from 'react-router-dom'
 export default class commonheader extends Component {
 
   render() {
@@ -14,8 +14,11 @@ export default class commonheader extends Component {
           <i className="iconfont icon-iconfontzhizuobiaozhun22"></i>
           <span>搜索商品, 共22494款好物</span>
         </div>
+
         <div className="btn">
+          <Link to='/personal'>
           <button>登陆</button>
+          </Link>
         </div>
       </div>
     )

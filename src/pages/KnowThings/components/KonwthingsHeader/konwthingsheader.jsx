@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import './konwthingsheader.styl'
-
+import {Link} from 'react-router-dom'
 
 
 export default class konwthingsheader extends Component{
@@ -9,7 +9,7 @@ export default class konwthingsheader extends Component{
       <div>
         <div>
           <div id="navContentkonw">
-            <i className="iconfont icon-home1 gohome"></i>
+            <Link to='/home'> <i className="iconfont icon-home1 gohome"></i></Link>
             <div className="wylogo">
               <p className='activekonw'>发现</p>
               <p>甄选家</p>

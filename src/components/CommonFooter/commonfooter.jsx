@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './commonfooter.styl'
 import {NavLink} from 'react-router-dom'
-export default class commonheader extends Component {
+export default class commonfooter extends Component {
   render() {
     return (
       <div>
